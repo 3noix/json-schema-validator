@@ -1,12 +1,9 @@
 /*
  * JSON schema validator for JSON for modern C++
- *
  * Copyright (c) 2016-2019 Patrick Boettcher <p@yai.se>.
- *
  * SPDX-License-Identifier: MIT
- *
  */
-#include <nlohmann/json.hpp>
+#include "json.hpp"
 
 namespace nlohmann
 {
@@ -76,6 +73,10 @@ json draft7_schema_builtin = R"( {
         },
         "default": true,
         "readOnly": {
+            "type": "boolean",
+            "default": false
+        },
+        "writeOnly": {
             "type": "boolean",
             "default": false
         },

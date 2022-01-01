@@ -1,13 +1,9 @@
 /*
  * JSON schema validator for JSON for modern C++
- *
  * Copyright (c) 2016-2019 Patrick Boettcher <p@yai.se>.
- *
  * SPDX-License-Identifier: MIT
- *
  */
-#include <nlohmann/json-schema.hpp>
-
+#include "json-schema.hpp"
 #include <sstream>
 
 namespace nlohmann
