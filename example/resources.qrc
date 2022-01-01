@@ -1,0 +1,8 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+	<file>resources/person.schema.json</file>
+	<file>resources/bad-person.json</file>
+	<file>resources/good-person.json</file>
+	<file>resources/good-defaulted-person.json</file>
+</qresource>
+</RCC>
